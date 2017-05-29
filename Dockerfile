@@ -4,3 +4,5 @@ MAINTAINER Picter <developers@picter.com>
 
 COPY sass-build.sh /
 RUN sh sass-build.sh
+
+RUN apk --update --no-cache add python
