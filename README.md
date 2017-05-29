@@ -6,4 +6,4 @@ Docker image for our Gitlab CI runnner.
 
 * node (lts, stable)
 * yarn
-* build environment for node-sass
+* sass (including build environment)
