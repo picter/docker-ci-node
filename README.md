@@ -7,8 +7,3 @@ Docker image for our Gitlab CI runnner.
 * node (lts, stable)
 * npm@5
 * yarn
-* sass
-
-## Credits
-
-* sass build, https://github.com/jbergknoff/Dockerfile/tree/master/sass
