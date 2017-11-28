@@ -9,3 +9,4 @@ Docker image for our Gitlab CI runnner.
 * node (lts, stable)
 * npm
 * yarn
+* git
