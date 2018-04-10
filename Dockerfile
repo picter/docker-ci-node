@@ -1,6 +1,6 @@
 FROM node:8.9.3-alpine
 
-MAINTAINER Picter <developers@picter.com>
+LABEL maintainer="Picter <developers@picter.com>"
 
 RUN apk add -Uuv \
   ca-certificates \
