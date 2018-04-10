@@ -11,5 +11,6 @@ RUN apk add -Uuv \
   py-pip \
   tar \
   bash \
+  zip \
   && rm -rf /var/cache/apk/*
 RUN pip install awscli
