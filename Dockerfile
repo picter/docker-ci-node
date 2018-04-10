@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:8.9.3-alpine
 
 MAINTAINER Picter <developers@picter.com>
 
