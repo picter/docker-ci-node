@@ -6,6 +6,7 @@ Docker image for our Gitlab CI runnner.
 
 ## Features
 
+* docker (lts, stable)
 * node (lts, stable)
 * npm
 * yarn
