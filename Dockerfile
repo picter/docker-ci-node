@@ -8,6 +8,8 @@ RUN apk add -Uuv \
   gzip \
   jq \
   make \
+  gcc \
+  g++ \
   docker \
   openssh-client \
   python \
