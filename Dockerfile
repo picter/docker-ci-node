@@ -8,12 +8,22 @@ RUN apk add -Uuv \
   gzip \
   jq \
   make \
-  gcc \
   g++ \
   docker \
   openssh-client \
   python \
   py-pip \
   tar \
+  python-dev \
+  libffi-dev \ 
+  openssl-dev \
+  gcc \
+  libc-dev \
+  make \
   && rm -rf /var/cache/apk/*
+
+RUN pip install --upgrade pip
+
+RUN pip install docker-compose
+
 RUN pip install awscli
