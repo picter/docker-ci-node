@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:12-alpine
 
 MAINTAINER Picter <developers@picter.com>
 
@@ -15,7 +15,7 @@ RUN apk add -Uuv \
   py-pip \
   tar \
   python-dev \
-  libffi-dev \ 
+  libffi-dev \
   openssl-dev \
   gcc \
   libc-dev \
