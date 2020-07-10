@@ -21,6 +21,7 @@ RUN apk add -Uuv \
   libc-dev \
   make \
   bash \
+  curl \
   && rm -rf /var/cache/apk/*
 
 RUN pip install --upgrade pip
