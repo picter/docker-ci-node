@@ -12,3 +12,12 @@ Docker image for our Gitlab CI runnner.
 - npm
 - yarn
 - git
+
+## Deploying
+
+- modify `Dockerfile`
+- run `docker build -t picter/ci-node:new-tag -t picter/ci-node:latest`
+- run `docker login` and enter your credentials
+- run `docker push picter/ci-node:new-tag`
+- run `docker push picter/ci-node:latest`
+- tag in git and push to remote
