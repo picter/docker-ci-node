@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:16-alpine
 
 MAINTAINER Picter <developers@picter.com>
 
@@ -11,10 +11,10 @@ RUN apk add -Uuv \
   g++ \
   docker \
   openssh-client \
-  python \
-  py-pip \
+  python3 \
+  py3-pip \
   tar \
-  python-dev \
+  python3-dev \
   libffi-dev \
   openssl-dev \
   gcc \
